@@ -1,0 +1,87 @@
+```css
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-me h2 {
+    text-align: left;
+}
+
+hr {
+    margin: 2rem 0;
+}
+h1,
+        h2 {
+            color: #007bff;
+        }
+
+
+@media (min-width: 900px) {
+
+    .hero {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+    .img-container {
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .content {
+        flex: 1.5;
+    }
+
+    h1,
+    h2 {
+        text-align: left;
+    }
+}
+```

@@ -1,0 +1,54 @@
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+ h1,
+        h2 {
+            color: #007bff;
+        }
+
+@media (min-width: 900px) {
+
+    .hero {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+    .img-container {
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .content {
+        flex: 1.5;
+    }
+
+    h1,
+    h2 {
+        text-align: left;
+    }
+}
+
